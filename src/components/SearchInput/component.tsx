@@ -1,8 +1,8 @@
 import type React from "react"
 
 import type { SearchInputProps } from "./types"
-import { Input } from "antd"
-import { CloseOutlined, UndoOutlined } from "@ant-design/icons"
+import { Input, Button } from "antd"
+import { CloseOutlined } from "@ant-design/icons"
 import useContainer from "./hook"
 
 const SearchInput: React.FC<SearchInputProps> = ({
@@ -19,7 +19,10 @@ const SearchInput: React.FC<SearchInputProps> = ({
       ref={inputRef}
       suffix={
         <>
-          <UndoOutlined onClick={onClear} />
+          <Button onClick={onClear} style={{ padding: "4px" }}>
+            clear
+          </Button>
+          
           <CloseOutlined onClick={onHideSearch} />
         </>
       }
