@@ -6,45 +6,45 @@ This is a test project built using Vite and React. The project demonstrates the 
 
 ## Features
 
-	•	State Management: Efficient state management with Redux Toolkit.
-	•	API Interaction: Fetch data and manage API calls using RTK Query.
-	•	UI Design: A clean and responsive interface built with Ant Design components.
-	•	Icon Integration: Ant Design Icons for a consistent and sleek look.
+- State Management: Efficient state management with Redux Toolkit.
+- API Interaction: Fetch data and manage API calls using RTK Query.
+- UI Design: A clean and responsive interface built with Ant Design components.
+- Icon Integration: Ant Design Icons for a consistent and sleek look.
 
 ## Tech Stack
 
-	•	Frontend: React
-	•	Bundler: Vite
-	•	State Management: Redux Toolkit
-	•	API Management: RTK Query
-	•	UI Framework: Ant Design
-	•	Icons: Ant Design Icons
+- Frontend: React
+- Bundler: Vite
+- State Management: Redux Toolkit
+- API Management: RTK Query
+- UI Framework: Ant Design
+- Icons: Ant Design Icons
 
 ## Installation
 
 Follow these steps to get the project up and running on your local machine:
 
-	1.	Clone the repository:
+1. Clone the repository:
 ```js
   git clone https://github.com/ArtemPapusha/user-management-table
 ```
 
-	2.	Navigate to the project directory:
+2. Navigate to the project directory:
 ```js
   cd user-management-table
 ```
 
- 	3.	Install the dependencies:
+3. Install the dependencies:
 ```js
   yarn
 ```
 
-	4.	Start the development server:
+4. Start the development server:
 ```js
   yarn dev
 ```
 
-	5.	Open your browser and go to:
+5. Open your browser and go to:
 ```js
   http://localhost:5173
 ```
@@ -53,5 +53,5 @@ Follow these steps to get the project up and running on your local machine:
 
 ## Contact
 
-	•	Author: Artem Papusha
-	•	Email: art.empy@outlook.com
+• Author: Artem Papusha
+• Email: art.empy@outlook.com
