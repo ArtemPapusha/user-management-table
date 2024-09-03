@@ -1,18 +1,11 @@
 import { configureStore } from "@reduxjs/toolkit"
 
-import {
-  userManagmentReducerName,
-  userManagmentReducer,
-} from "../modules/UserManagmentTable"
-
 import { baseApi } from "./rootQuery"
+import reducer from "./rootReducer"
 
 const store = configureStore({
   devTools: true,
-  reducer: {
-    [baseApi.reducerPath]: baseApi.reducer,
-    [userManagmentReducerName]: userManagmentReducer,
-  },
+  reducer,
   middleware: getDefaultMiddleware =>
     getDefaultMiddleware().concat(baseApi.middleware),
 })

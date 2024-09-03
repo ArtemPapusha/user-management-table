@@ -1,9 +1,23 @@
-import React from "react"
+import type React from "react"
+import { StrictMode } from "react"
 
-import UserManagmentTable from "./modules/UserManagmentTable"
+import { IntlProvider } from "react-intl"
+import { Provider } from "react-redux"
+
+import locales from "@locales/en"
+import UserManagement from "@pages/UserManagement"
+import store from "@state/store"
 
 const App: React.FC = () => {
-  return <UserManagmentTable />
+  return (
+    <StrictMode>
+      <Provider store={store}>
+        <IntlProvider {...locales}>
+          <UserManagement />
+        </IntlProvider>
+      </Provider>
+    </StrictMode>
+  )
 }
 
 export default App

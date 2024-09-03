@@ -1,8 +1,12 @@
+import type React from "react"
+
+import type { IntlMessage } from "@locales/types"
+
 export interface HeaderTableProps {
-  text: string
+  text: string | IntlMessage
   isSearch: boolean
   searchValue: string
-  handleSearch: (e: React.ChangeEvent<HTMLInputElement>) => void
-  toggleShowSearch: VoidFunction
-  handleClearSearch: VoidFunction
+  onSearch: React.ChangeEventHandler
+  toggleShowSearch: React.MouseEventHandler
+  onClearSearch: React.MouseEventHandler
 }
