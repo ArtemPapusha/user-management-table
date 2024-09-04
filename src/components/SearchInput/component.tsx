@@ -2,7 +2,7 @@ import type React from "react"
 
 import { Input } from "antd"
 
-import InputController from "@components/SearchInput/InputController"
+import InputController from "@components/InputController"
 
 import useContainer from "./hook"
 import styles from "./styles.module.scss"

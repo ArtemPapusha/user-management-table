@@ -4,12 +4,6 @@ import HeaderTable from "@components/HeaderTable"
 
 import useContainer from "./hook"
 
-/**
- * EmailHeader component provides a header for the email column in the user management table with search functionality.
- *
- * @returns The EmailHeader component.
- * @component
- */
 const EmailHeader: React.FC = () => {
   const {
     isSearchEmail,

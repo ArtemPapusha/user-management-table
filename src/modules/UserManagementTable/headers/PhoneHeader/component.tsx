@@ -4,12 +4,6 @@ import HeaderTable from "@components/HeaderTable"
 
 import useContainer from "./hook"
 
-/**
- * PhoneHeader component provides a header for the phone column in the user management table with search functionality.
- *
- * @returns The PhoneHeader component.
- * @component
- */
 const PhoneHeader: React.FC = () => {
   const {
     isSearchPhone,

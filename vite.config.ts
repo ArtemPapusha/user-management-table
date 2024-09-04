@@ -19,7 +19,7 @@ export default {
       "@modules": path.resolve("src/modules"),
       "@pages": path.resolve("src/pages"),
       "@state": path.resolve("src/state"),
-      "@type": path.resolve("src/types"),
+      "@type": path.resolve("src/type"),
       "@utils": path.resolve("src/utils"),
       "@locales": path.resolve("src/locales"),
     },

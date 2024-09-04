@@ -4,12 +4,6 @@ import HeaderTable from "@components/HeaderTable"
 
 import useContainer from "./hook"
 
-/**
- * UserNameHeader component provides a header for the username column in the user management table with search functionality.
- *
- * @returns The UserNameHeader component.
- * @component
- */
 const UserNameHeader: React.FC = () => {
   const {
     isSearchUserName,

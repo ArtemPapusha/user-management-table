@@ -42,6 +42,9 @@
       "@state": ["./state"],
       "@state/*": ["./state/*"],
 
+      "@type": ["./type"],
+      "@type/*": ["./type/*"],
+
       "@locales": ["./locales"],
       "@locales/*": ["./locales/*"],
     },

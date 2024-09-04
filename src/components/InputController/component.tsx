@@ -3,8 +3,7 @@ import type React from "react"
 import { Button } from "antd"
 import { FormattedMessage } from "react-intl"
 
-import styles from "../styles.module.scss"
-
+import styles from "./styles.module.scss"
 import type { InputControllerProps } from "./types"
 
 /**
