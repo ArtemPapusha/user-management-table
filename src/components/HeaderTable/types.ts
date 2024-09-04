@@ -1,6 +1,6 @@
 import type React from "react"
 
-import type { IntlMessage } from "@locales/types"
+import type { IntlMessage } from "@type/app"
 
 export interface HeaderTableProps {
   text: string | IntlMessage
