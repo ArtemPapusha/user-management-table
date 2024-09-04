@@ -2,9 +2,9 @@ import type React from "react"
 
 import { SearchOutlined } from "@ant-design/icons"
 import { Typography, Button, Flex } from "antd"
-import { FormattedMessage } from "react-intl"
 
-import SearchInput from "../SearchInput"
+import FormattedOrRawMessage from "@components/FormattedOrRawMessage"
+import SearchInput from "@components/SearchInput"
 
 import styles from "./styles.module.scss"
 import type { HeaderTableProps } from "./types"
@@ -36,7 +36,7 @@ const HeaderTable: React.FC<HeaderTableProps> = ({
   return (
     <Flex align="center">
       <Text className={styles.headerTableTitle}>
-        {typeof text === "string" ? text : <FormattedMessage {...text} />}
+        <FormattedOrRawMessage message={text} />
       </Text>
 
       {isSearch && (
